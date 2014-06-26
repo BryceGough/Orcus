@@ -1,6 +1,3 @@
-Orcus Media Library
-===================
-
 What is Orcus?
 --------------
 Orcus is a open source media library that will be able to play lots of types of media easily from .NET applications.
