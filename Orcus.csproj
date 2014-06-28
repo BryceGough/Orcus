@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,14 +43,17 @@
   <ItemGroup>
     <Compile Include="Audio\Library.cs" />
     <Compile Include="Audio\Sound.cs" />
+    <Compile Include="Exceptions\AlreadyOpenException.cs" />
+    <Compile Include="Exceptions\NotOpenException.cs" />
     <Compile Include="Exceptions\OrcusException.cs" />
     <Compile Include="Exceptions\OutOfRangeException.cs" />
     <Compile Include="Exceptions\UnsupportedFunctionException.cs" />
+    <Compile Include="MediaControlInterface\MCI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Video\Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Midi\" />
-    <Folder Include="Video\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

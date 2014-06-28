@@ -1,0 +1,5 @@
+C:\Users\Bryce\Documents\GitHub\Orcus\bin\Debug\Orcus.dll
+C:\Users\Bryce\Documents\GitHub\Orcus\bin\Debug\Orcus.pdb
+C:\Users\Bryce\Documents\GitHub\Orcus\obj\Debug\Orcus.dll
+C:\Users\Bryce\Documents\GitHub\Orcus\obj\Debug\Orcus.pdb
+C:\Users\Bryce\Documents\GitHub\Orcus\obj\Debug\Orcus.csprojResolveAssemblyReference.cache
